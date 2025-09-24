@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+tr,th,td{
+	border:1px solid #F0EBEB;
+	padding:10px;
+	border-radius:10px;
+}
+#header{
+	font-size:25px;
+	font-weight:900px;
+}
+tr:nth-child(even){
+	background-color:#E3DEDE;
+}
